@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>PLD | Profil</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body {
+            background-color: #f8f9fa;
+        }
+
+        /* ===== NAVBAR ===== */
+        header {
+            background: #ffffff;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .navbar {
+            max-width: 1200px;
+            margin: auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 20px;
+        }
+
+        .logo h1 {
+            font-size: 20px;
+        }
+
+        .logo p {
+            font-size: 12px;
+            color: #777;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #333;
+            font-size: 14px;
+        }
+
+        nav ul li a.active {
+            color: green;
+            font-weight: bold;
+        }
+
+        nav ul li a.active{
+    font-weight:bold;
+    color:#ffffff;
+}
+
+.logo{
+    display:flex;
+    align-items:center;
+    gap:10px;
+}
+.logo img{
+    width:45px;
+}
+
+        /* ===== HERO SECTION ===== */
+        .hero {
+            max-width: 1200px;
+            margin: 40px auto;
+            display: flex;
+            align-items: center;
+            gap: 40px;
+            padding: 20px;
+            background: #ffffff;
+        }
+
+        .hero img {
+            width: 50%;
+            border-radius: 5px;
+        }
+
+        .hero-text {
+            width: 50%;
+        }
+
+        .hero-text h2 {
+            font-size: 28px;
+            margin-bottom: 15px;
+        }
+
+        .hero-text p {
+            font-size: 14px;
+            color: #555;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 10px 18px;
+            background: #1e73be;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 4px;
+            font-size: 14px;
+        }
+
+        /* ===== RESPONSIVE ===== */
+        @media (max-width: 768px) {
+            .hero {
+                flex-direction: column;
+            }
+
+            .hero img,
+            .hero-text {
+                width: 100%;
+            }
+        }
+
+    .active {
+    background: #1e73be;
+    color: #fff;
+    padding: 10px 18px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+/* FOOTER */
+.footer {
+  background: #050b18;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 40px;
+}
+
+.footer-col h3 {
+  font-size: 22px;
+  margin-bottom: 15px;
+}
+
+.footer-col h4 {
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+.footer-col p {
+  font-size: 14px;
+  line-height: 1.6;
+  opacity: 0.8;
+}
+
+.footer-col ul {
+  list-style: none;
+}
+
+.footer-col ul li {
+  margin-bottom: 10px;
+}
+
+.footer-col ul li a {
+  text-decoration: none;
+  color: #cfd6e1;
+  font-size: 14px;
+  opacity: 0.85;
+}
+
+.footer-col ul li a:hover {
+  opacity: 1;
+}
+
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+iframe {
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+}
+
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="navbar">
+        <div class="logo">
+            <img src="images/WhatsApp_Image_2025-02-18_at_06.25.59_b3a898c3-removebg-preview.png" alt="">
+            <h1>PLD | Hamzanwadi</h1>
+            <p>Mendidik dengan Tulus, Mengajar Dengan Hati</p>
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="index.html" class="">Beranda</a></li>
+                <li><a href="profil.html">Profil</a></li>
+                <li><a href="berita.html">Berita</a></li>
+                <li><a href="kontak.html">Kontak</a></li>
+                <li><a href="galeri.html">Galeri</a></li>
+                <li><a href="pendaftaran.html" class="active">Pendaftaran PLD Baru</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<section class="hero">
+    <img src="images/IMG_5455.jpg" alt="Gedung">
+
+    <div class="hero-text">
+        <h2>Gedung-Universitas Hamzanwadi</h2>
+        <p>
+            Gedung Universitas Hamzanwadi mulai resmi berdiri tahun 2016 setelah penggabungan 
+            STKIP dan STT Hamzanwadi, namun cikal bakal kampusnya sudah ada sejak tahun 2013 
+            dengan pembentukan Sekolah Tinggi Teknologi (STT) Hamzanwadi, dan terus berkembang 
+            dengan fasilitas kampus yang asri serta fasilitas seperti Fakultas Kedokteran yang baru dibuka. 
+        </p>
+        <a href="#" class="btn">KNOW MORE</a>
+    </div>
+</section>
+
+<!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-container">
+
+      <div class="footer-col">
+        <h3>PLD | HAMAZNWADI.</h3>
+        <p>
+          Platform travel terbaik untuk mengeksplorasi keindahan alam Indonesia
+          dengan mudah dan aman.
+        </p>
+      </div>
+
+<div class="footer-col">
+        <h4>Bantuan</h4>
+        <ul>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">Kebijakan Privasi</a></li>
+          <li><a href="#">Syarat & Ketentuan</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Kontak</h4>
+        <p>pldHamzanwadi@gmail.com</p>
+        <p>+62 815 3476 7823</p>
+        <p>Lombok Timur, Indonesia</p>
+      </div>
+    </div>
+
+    <footer>
+    <p>© 2026 SLB Negeri 1 Badung</p>
+</footer>
+
+</body>
+</html>
